@@ -29,7 +29,7 @@ function createVideoHtml(source) {
 
 var holder = document.getElementById('holder');
 let videoContainer = document.getElementById("video-container")
-let videoHtml = createVideoHtml("http://vjs.zencdn.net/v/oceans.mp4")
+let videoHtml = createVideoHtml("https://v.supermonkey.com.cn/Act-ss-mp4-hd/f0c7c03579bc4e9aaed6049e6fa6833d/SUPERMONKEY-0826.mp4")
 videoContainer.innerHTML = videoHtml;
 
 var newSettings = {
